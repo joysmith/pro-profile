@@ -1,5 +1,9 @@
 > PARADIGM: "Open Book Exam" aka Reference module-docs mentality
 
+How to use [request module ](https://www.npmjs.com/package/request) ?
+<br>
+<br>
+
 # Project setup
 
 1. Go to desktop and create a project folder
@@ -39,12 +43,14 @@
 - make the App component look like this
 - <img src="image%20notes/2%20App%20component.png" width="700">
 
-6. How to organize the front-end
+# Project organization
+
+1. How to organize the front-end
 
 - create following folder inside src folder
 - <img src="image%20notes/1%20organization.png" width="700">
 
-7. inside Home-folder create Profile.js, Profile.css
+2. inside Home-folder create Profile.js, Profile.css
 
 - type rfc inside Profile.js to generate boilerplate
 
@@ -52,7 +58,9 @@
   rfc
 ```
 
-8. open index.html in public-folder and add bootstrap cdn
+# Adding social media icon
+
+1. open index.html in public-folder and add bootstrap cdn
 
 ```
     <link
@@ -75,7 +83,7 @@
 
 ```
 
-9. How to add social icon like
+2. How to add social icon like
 
 - <img src="image%20notes/3%20social%20icon.png" width="700">
 
@@ -118,8 +126,23 @@ export default function Profile() {
 
 - <img src="image%20notes/4%20after%20adding%20code.png" width="700">
 
--
+3. import Profile.js component and add the component
 
-9.  How to use [request module ](https://www.npmjs.com/package/request) ?
-    <br>
-    <br>
+```
+import "./App.css";
+import "./PortfolioContainer/Home/Profile";
+import Profile from "./PortfolioContainer/Home/Profile";
+
+function App() {
+  return (
+    <div className="App">
+      <Profile />
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+4.
