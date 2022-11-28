@@ -145,4 +145,9 @@ export default App;
 
 ```
 
-4.
+# Type effect, short desc, buttons
+
+1.
+
+- <img src="gif/1%20type%20effect.gif" width="700">
+- <img src="gif/2%20result.gif" width="700">
