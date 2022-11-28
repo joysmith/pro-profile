@@ -41,7 +41,7 @@
 
 6. How to organize the front-end
 
-- <img src="image%20notes/2%20App%20component.png" width="700">
+- <img src="image%20notes/1%20organization.png" width="700">
 
 7.  How and where to read api config<br>
 
