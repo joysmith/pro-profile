@@ -147,7 +147,16 @@ export default App;
 
 # Type effect, short desc, buttons
 
-1.
-
 - <img src="gif/1%20type%20effect.gif" width="700">
 - <img src="gif/2%20result.gif" width="700">
+
+1. How to use [type effect module ](https://www.npmjs.com/package/react-typical) ?
+
+```
+  npm install --save react-typical
+
+```
+
+2. Where to place resume.pdf locally for download button
+
+- Inside public folder

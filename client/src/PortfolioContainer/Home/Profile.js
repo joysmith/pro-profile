@@ -1,4 +1,6 @@
 import React from "react";
+import Typical from "react-typical";
+// import ScrollService from "../../../utilities/ScrollService";
 import "./Profile.css";
 
 export default function Profile() {
@@ -6,8 +8,8 @@ export default function Profile() {
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
+          {/***** SOCIAL MEDIA ICON CONTAINER-colz *****/}
           <div className="colz">
-            {/***** SOCIAL MEDIA ICON CONTAINER-colz *****/}
             <div className="colz-icon">
               <a href="https://web.facebook.com/?_rdc=1&_rdr">
                 <i className="fa fa-facebook-square" />
@@ -26,6 +28,65 @@ export default function Profile() {
               </a>
             </div>
           </div>
+
+          {/***** PROFILE Name CONTAINER *****/}
+          <div className="profile-details-name">
+            <span className="primary-text">
+              {" "}
+              Hello, I'M{" "}
+              <span className="highlighted-text">Joy smith peter</span>
+            </span>
+          </div>
+
+          {/***** PROFILE DETAILS CONTAINER *****/}
+          <div className="profile-details-role">
+            {/*-- type effect--*/}
+            <span className="primary-text">
+              {" "}
+              <h1>
+                <Typical
+                  loop={Infinity}
+                  steps={[
+                    "Enthusiastic Dev 😎",
+                    1000,
+                    "Full stack Developer 💻",
+                    1000,
+                    "Mern stack Dev 📱",
+                    1000,
+                    "Cross Platform Dev 🔴",
+                    1000,
+                    "React/React Native 🌐",
+                    1000,
+                  ]}
+                />
+              </h1>
+            </span>
+
+            {/*-- short description--*/}
+            <span className="profile-role-tagline">
+              Knack of building applications with front and back end operations.
+            </span>
+          </div>
+
+          {/***** BUTTON CONTAINER *****/}
+          <div className="profile-options">
+            <button
+              className="btn primary-btn"
+              //   onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+            >
+              {" "}
+              Hire Me{" "}
+            </button>
+            {/*-- download pdf button--*/}
+            <a href="joy.pdf" download="Joy Smith Peter.pdf">
+              <button className="btn highlighted-btn">Get Resume</button>
+            </a>
+          </div>
+        </div>
+
+        {/***** PROFILE PICTURE CONTAINER *****/}
+        <div className="profile-picture">
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>
