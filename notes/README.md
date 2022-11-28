@@ -13,11 +13,11 @@
 
 ```
 
-4. go to index.html and change the following tags
+4. go to index.html and edit the following tags
 
 ```
 <meta
-      name="description"
+
       content="My personal portfolio which features some of my github projects as well as my resume and technical skills."
     />
 
@@ -36,9 +36,14 @@
 ```
 
 - also remove opening and closing header-tags
+- make the App component look like this
 - <img src="image%20notes/2%20App%20component.png" width="700">
 
-8. How and where to read api config<br>
+6. How to organize the front-end
+
+- <img src="image%20notes/2%20App%20component.png" width="700">
+
+7.  How and where to read api config<br>
 
 - [apiKey ](https://www.themoviedb.org/) = "1fb720b97cc13e580c2c35e1138f90f8";
 - apiBaseUrl = "http://api.themoviedb.org/3";
