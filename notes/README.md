@@ -172,3 +172,11 @@ export default App;
 2. After applying index.css
 
 - <img src="image%20notes/7%20index.css.png" width="700">
+
+3. After applying app.css
+
+- <img src="image%20notes/8%20app.css.png" width="700">
+
+3. After applying profile.css
+
+- <img src="image%20notes/9%20profile.css.png" width="700">
