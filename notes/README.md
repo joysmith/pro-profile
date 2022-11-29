@@ -160,3 +160,13 @@ export default App;
 2. Where to place resume.pdf locally for download button
 
 - Inside public folder
+
+![Alt text]()
+
+# Styling Home section using class selectors
+
+- <img src="image%20notes/6%20home%20sectiona.png" width="700">
+
+1. organize the asset folder
+
+- <img src="image%20notes/5%20assets.png" width="700">
