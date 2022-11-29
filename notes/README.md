@@ -161,8 +161,6 @@ export default App;
 
 - Inside public folder
 
-![Alt text]()
-
 # Styling Home section using class selectors
 
 - <img src="image%20notes/6%20home%20sectiona.png" width="700">
@@ -170,3 +168,7 @@ export default App;
 1. organize the asset folder
 
 - <img src="image%20notes/5%20assets.png" width="700">
+
+2. After applying index.css
+
+- <img src="image%20notes/7%20index.css.png" width="700">
