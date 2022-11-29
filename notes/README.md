@@ -177,6 +177,10 @@ export default App;
 
 - <img src="image%20notes/8%20app.css.png" width="700">
 
-3. After applying profile.css
+4. After applying profile.css
 
 - <img src="image%20notes/9%20profile.css.png" width="700">
+
+5. After updating profile.css for diff device size
+
+- <img src="image%20notes/10%20diff%20device%20size.png" width="700">
